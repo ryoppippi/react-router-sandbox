@@ -16,7 +16,9 @@ export default defineConfig(({ mode }) => ({
       exclude: [
         "react-router.config.ts",
         "vite.config.mts",
+        "postcss.config.cjs",
         ".react-router/types",
+        "build/",
         "app/data.ts",
         "app/root.tsx",
         "app/routes.ts",
